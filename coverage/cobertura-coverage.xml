@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="87"  lines-covered="6"  line-rate="0.069"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1537861196853" complexity="0" version="0.1">
+<sources>
+	<source>C:\Users\S783244\workspace\native-script-practice\ns-ng-unit-testing</source>
+</sources>
+<packages>
+	<package name="app"  line-rate="0.07690000000000001"  branch-rate="1" >
+	<classes>
+		<class name="app.component.js"  filename="app\app.component.js"  line-rate="0.1429"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="4"  hits="0" /></lines>
+			</method>
+			<method name="AppComponent"  hits="0"  signature="()V" >
+				<lines><line number="5"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="3"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="1"  branch="false" />
+			<line number="7"  hits="0"  branch="false" />
+			<line number="13"  hits="0"  branch="false" />
+			<line number="15"  hits="0"  branch="false" />
+		</lines>
+		</class>
+		<class name="app.module.js"  filename="app\app.module.js"  line-rate="0.07690000000000001"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="14"  hits="0" /></lines>
+			</method>
+			<method name="AppModule"  hits="0"  signature="()V" >
+				<lines><line number="18"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="3"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="0"  branch="false" />
+			<line number="6"  hits="0"  branch="false" />
+			<line number="7"  hits="0"  branch="false" />
+			<line number="8"  hits="0"  branch="false" />
+			<line number="9"  hits="0"  branch="false" />
+			<line number="14"  hits="0"  branch="false" />
+			<line number="18"  hits="1"  branch="false" />
+			<line number="20"  hits="0"  branch="false" />
+			<line number="45"  hits="0"  branch="false" />
+			<line number="47"  hits="0"  branch="false" />
+		</lines>
+		</class>
+		<class name="app.routing.js"  filename="app\app.routing.js"  line-rate="0.0909"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="12"  hits="0" /></lines>
+			</method>
+			<method name="AppRoutingModule"  hits="0"  signature="()V" >
+				<lines><line number="13"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="3"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="0"  branch="false" />
+			<line number="6"  hits="0"  branch="false" />
+			<line number="7"  hits="0"  branch="false" />
+			<line number="12"  hits="0"  branch="false" />
+			<line number="13"  hits="1"  branch="false" />
+			<line number="15"  hits="0"  branch="false" />
+			<line number="21"  hits="0"  branch="false" />
+			<line number="23"  hits="0"  branch="false" />
+		</lines>
+		</class>
+		<class name="main.aot.js"  filename="app\main.aot.js"  line-rate="0"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="6"  hits="0"  branch="false" />
+			<line number="7"  hits="0"  branch="false" />
+		</lines>
+		</class>
+		<class name="main.js"  filename="app\main.js"  line-rate="0"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="0"  branch="false" />
+			<line number="10"  hits="0"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="app.item"  line-rate="0.0789"  branch-rate="1" >
+	<classes>
+		<class name="item-detail.component.js"  filename="app\item\item-detail.component.js"  line-rate="0.07139999999999999"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="6"  hits="0" /></lines>
+			</method>
+			<method name="ItemDetailComponent"  hits="0"  signature="()V" >
+				<lines><line number="7"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="11"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="3"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="0"  branch="false" />
+			<line number="6"  hits="0"  branch="false" />
+			<line number="7"  hits="1"  branch="false" />
+			<line number="8"  hits="0"  branch="false" />
+			<line number="9"  hits="0"  branch="false" />
+			<line number="11"  hits="0"  branch="false" />
+			<line number="12"  hits="0"  branch="false" />
+			<line number="13"  hits="0"  branch="false" />
+			<line number="15"  hits="0"  branch="false" />
+			<line number="24"  hits="0"  branch="false" />
+			<line number="26"  hits="0"  branch="false" />
+		</lines>
+		</class>
+		<class name="item.js"  filename="app\item\item.js"  line-rate="0"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+		</lines>
+		</class>
+		<class name="item.service.js"  filename="app\item\item.service.js"  line-rate="0.0833"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="4"  hits="0" /></lines>
+			</method>
+			<method name="ItemService"  hits="0"  signature="()V" >
+				<lines><line number="5"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="8"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_4)"  hits="0"  signature="()V" >
+				<lines><line number="11"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_5)"  hits="0"  signature="()V" >
+				<lines><line number="12"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="3"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="1"  branch="false" />
+			<line number="6"  hits="0"  branch="false" />
+			<line number="8"  hits="0"  branch="false" />
+			<line number="9"  hits="0"  branch="false" />
+			<line number="11"  hits="0"  branch="false" />
+			<line number="12"  hits="0"  branch="false" />
+			<line number="14"  hits="0"  branch="false" />
+			<line number="17"  hits="0"  branch="false" />
+			<line number="19"  hits="0"  branch="false" />
+		</lines>
+		</class>
+		<class name="items.component.js"  filename="app\item\items.component.js"  line-rate="0.0909"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="5"  hits="0" /></lines>
+			</method>
+			<method name="ItemsComponent"  hits="0"  signature="()V" >
+				<lines><line number="8"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="11"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="3"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="0"  branch="false" />
+			<line number="8"  hits="1"  branch="false" />
+			<line number="9"  hits="0"  branch="false" />
+			<line number="11"  hits="0"  branch="false" />
+			<line number="12"  hits="0"  branch="false" />
+			<line number="14"  hits="0"  branch="false" />
+			<line number="22"  hits="0"  branch="false" />
+			<line number="24"  hits="0"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="app.shared.testing"  line-rate="0"  branch-rate="1" >
+	<classes>
+		<class name="testBed-setup.js"  filename="app\shared\testing\testBed-setup.js"  line-rate="0"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="4"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="3"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="0"  branch="false" />
+			<line number="6"  hits="0"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="app.tests"  line-rate="0"  branch-rate="1" >
+	<classes>
+		<class name="test-config.js"  filename="app\tests\test-config.js"  line-rate="0"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="2"  hits="0"  branch="false" />
+			<line number="3"  hits="0"  branch="false" />
+			<line number="4"  hits="0"  branch="false" />
+			<line number="5"  hits="0"  branch="false" />
+			<line number="6"  hits="0"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>
