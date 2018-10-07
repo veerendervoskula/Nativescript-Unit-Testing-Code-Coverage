@@ -34,6 +34,7 @@ export class ItemService {
     }
 
     getItem(id: number): Item {
+        console.log('item service',id);
         return this.items.filter(item => item.id === id)[0];
     }
 }

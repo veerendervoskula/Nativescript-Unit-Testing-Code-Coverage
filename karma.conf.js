@@ -17,13 +17,17 @@ module.exports = function (config) {
 
     // list of files to exclude
     exclude: [
+      "**/*.module.js",
+      "**/*.routing.js",
+      "**/index.js",
+      "app/main.aot.js"
     ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'app/**/!(*spec).js': ['coverage']
+      "app/**/!(*spec).js": ['coverage']
     },
 
     // test results reporter to use
@@ -32,18 +36,25 @@ module.exports = function (config) {
     reporters: ['mocha', 'coverage'],
 
     coverageReporter: {
-
       dir: require('path').join(__dirname, './coverage'),
+      subdir: 'neo-native',
       reporters: [
         { type: 'lcov', subdir: '.' },
         { type: 'cobertura', subdir: '.' },
         { type: 'html', subdir: '.' },
       ],
-      skipFilesWithNoCoverage: true,
-      combineBrowserReports: true,
+      //skipFilesWithNoCoverage: true,
+      //combineBrowserReports: true,
       instrumenterOptions: { istanbul: { noCompact: true } },
       includeAllSources: true
     },
+    // coverageIstanbulReporter: {
+    //   reports: ['html', 'lcovonly', 'text-summary'],
+    //   fixWebpackSourcePaths: true,
+    //  // skipFilesWithNoCoverage: true,
+    //   combineBrowserReports: true,
+    //    includeAllSources: true
+    // },
 
     // web server port
     port: 9876,

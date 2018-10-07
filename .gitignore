@@ -3,3 +3,5 @@ node_modules
 hooks
 platforms
 coverage
+app/**/*.js
+app/test/*.js

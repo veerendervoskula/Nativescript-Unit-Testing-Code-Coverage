@@ -18,13 +18,7 @@ describe('Test ItemDetailComponent:', () => {
         declarations: [
             ItemDetailComponent
         ],
-        providers: [
-            {
-                provide: ItemService,
-                useValue: {
-                    getItem() { return { id: 1, name: "Thibaut Courtois", role: "Goalkeeper", club: "Real Madrid" } }
-                }
-            },
+        providers: [ItemService,
             {
                 provide: ActivatedRoute,
                 useValue: {
